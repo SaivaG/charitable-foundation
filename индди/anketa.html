@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мой сайт</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__contacts">
+          <a class="header__phone">+996 702 770 570</a>
+          <a class="header__email" href="#">oldnessis@gmail.com</a>
+          <a class="header__btn" href="konsl.html">Задайте нам вопрос</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-inner">
+          <div class="header__logo">
+            <a href="index.html">
+              <img src="img/logo.jpg" alt="" width="120px" height="50px">
+            </a>
+          </div>
+          <nav class="menu">
+            <div class="header__btn-menu">
+            </div>
+            <ul>
+              <li><a href="index.html">ГЛАВНАЯ</a></li>
+              <li><a href="about.html">О ФОНДЕ</a></li>
+              <li><a href="help.html">ПОМОЧЬ ФОНДУ</a></li>
+              <li><a href="volonteer.html">ВОЛОНТЕРАМ</a></li>
+              <li><a href="kontakts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="anketa">
+      <h1>Форма заявки</h1>
+    </div>
+    <div class="anketa_forma">
+      <h4>Ответственное лицо</h4>
+      <input type="text" class="surname" placeholder="Иванов Андрей Петрович" required>
+      <h4>E-Mail</h4>
+      <input type="text" class="email" placeholder="***@gmail.com" required>
+      <h4>Номер телефона</h4>
+      <input type="text" class="nomer" placeholder="+996 770 ***" required>
+      <h4>Место учебы/работы</h4>
+      <input type="text" class="ucheba" placeholder="Фонд 'Сорос-Кыргызстан'" required>
+      <h4>В какое время дня свободен/на</h4>
+      <input type="text" class="freedom" placeholder="Утро 8:00 - 12:00" required>
+      <h4>Какая сфера деятельности интересна</h4>
+      <input type="text" class="sfera" placeholder="Пoмощь в организации мероприятий" required>
+      <h4>Расскажите кратко, почему хотите стать волонтером нашего благотворительного фонда??</h4>
+      <input type="text" class="essay" placeholder="Ваше сочинение" required><br><br>
+      <button type="submit" id="btn">Отправить заявку</button>
+        <div class="modal">
+          <div class="modal-wrapper">
+            <div class="modal-header">
+              <span class="closeBtn">&times;</span>
+            </div>
+            <div class="modal-body">
+              <p>Ваша заявка принята в обработку. <br>Пожалуйста, ждите от нас ответа!</p>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="footer__title">
+              Старость в радость!
+            </div>
+            <div class="footer__text">
+              Мы сделам жизнь наших бабушек и дедушек - ЛУЧШЕ!
+            </div>
+            <a class="header__btn" href="konsl.html">Задайте нам вопрос</a>
+            <ul class="footer__list">
+              <li><a class="footer__phone" href="tel:380963092145">+996 702 770 570</a></li>
+              <li><a href="#">oldnessis@gmail.com</a></li>
+              <li><a class="footer__adress" href="#">Кыргызстан, Бишкек</a></li>
+            </ul>
+          </div>
+          <div class="footer__map">
+            <iframe height="250px"
+              src="https://www.google.com/maps/place/%D0%91%D0%B8%D1%88%D0%BA%D0%B5%D0%BA/@42.8767897,74.4517772,11z/data=!3m1!4b1!4m5!3m4!1s0x389eb7dc91b3c881:0x492ebaf57cdee27d!8m2!3d42.8746212!4d74.5697617"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <div class="container">
+        <div class="copy__text">
+          Все права защищены. © 2019
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
